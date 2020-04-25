@@ -20,7 +20,8 @@ var playStream = function(idVideoTag, stream){
 //     stream => playStream('localStream', stream)
 // );
 
-var peer = new Peer({ key: 'PeerJS Server', host: 'mypeeronline.herokuapp.com', secure: true, port:443 });
+// var peer = new Peer({ key: 'PeerJS Server', host: 'mypeeronline.herokuapp.com', secure: true, port:443 });
+var peer = new Peer({ key: 'lwjd5qra8257b9' });
 
 peer.on('open', function(id) {
     $("#my-peer").append(id);
